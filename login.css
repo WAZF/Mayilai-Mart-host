@@ -2,7 +2,7 @@ html{
     font-family:'mangoose','Poppins',sans-serif;
   } 
   body{
-        background: url(images/Shopping-Quotes-5\ \(1\).jpg); 
+        background: url(images/Shopping-Quotes-5\ \(1\).jpg)  no-repeat center center fixed;
       color: white;
       background-size: cover;
       }
