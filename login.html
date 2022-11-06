@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login form</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div class="form">
+      <h3 class="title">Login to Mayilai Mart</h3>
+      <form id="login-form">
+        <div class="form-group">
+          <input type="text"  placeholder="username"  id="username" class="form-group" >
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="password" id="password" class="form-group" >
+        </div>
+        <input type="button" value="Sign In" class="submit" onclick="validate()">
+        
+         
+        <div class="row">
+          <p>Not Yet Registered? <a href="loading.html">Sign Up</a></p>
+          <p>Continue Without Account? <a href="main.html">login</a></p>
+        </div>
+      </form>
+    </div>
+    <div class="last">
+      <a href="#">T&C</a>
+      <a href="#">Policy</a>
+    </div>
+  </div>
+</body>
+</html>
